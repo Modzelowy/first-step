@@ -1,4 +1,5 @@
 import pygame
 
 
-print(pygame.__file__)  
+
+print ("Drewno")
