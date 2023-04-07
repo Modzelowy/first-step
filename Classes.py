@@ -140,3 +140,7 @@
 # scorpion = Scorpion(100, 30, 25)
 # print(scorpion.health)
 # scorpion.attack()
+
+
+random_list = [1, 2, 3, 4]
+print(enumerate(random_list))
