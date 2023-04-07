@@ -14,5 +14,7 @@ import csv
 url_reqres = "https://reqres.in/api/users"
 url_gorest = "https://gorest.co.in/public/v2/users"
 
-
-dane = requests.get(url_reqres)
+response_reg = requests.get(url_reqres)
+response_gor = requests.get(url_gorest)
+dane_gor = response_gor.json
+dane_reg = response_reg.json
